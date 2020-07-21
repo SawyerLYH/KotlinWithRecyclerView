@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/dp_5">
+
+
+    <TextView
+        android:id="@+id/tvSlideItem"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_85"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="@string/item"
+        android:textSize="@dimen/sp_18" />
+
+
+    <TextView
+        android:id="@+id/tvSlideDel"
+        android:layout_width="@dimen/dp_88"
+        android:layout_height="@dimen/dp_85"
+        android:layout_gravity="end"
+        android:background="#ffa042"
+        android:gravity="center"
+        android:padding="@dimen/dp_10"
+        android:text="@string/delete" />
+
+</LinearLayout>

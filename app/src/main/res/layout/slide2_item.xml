@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_5">
+
+    <com.daimajia.swipe.SwipeLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_85">
+
+        <LinearLayout
+            android:id="@+id/bottom_wrapper"
+            android:layout_width="@dimen/dp_85"
+            android:layout_height="match_parent"
+            android:background="#FF5534"
+            android:gravity="center"
+            android:tag="Bottom3">
+
+            <TextView
+                android:id="@+id/tvDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_18" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/green"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvMid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/item"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_18" />
+
+        </LinearLayout>
+    </com.daimajia.swipe.SwipeLayout>
+
+</androidx.cardview.widget.CardView>
+
+

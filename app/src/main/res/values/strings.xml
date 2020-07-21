@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KotlinRecyclerViewDemo</string>
+    <string name="main_name">RecyclerViewDemo</string>
+    <string name="item_click">Item点击</string>
+    <string name="many_group">分组</string>
+    <string name="sticky_group">顶部悬浮</string>
+    <string name="drag">拖动</string>
+    <string name="swipe">滑动删除</string>
+    <string name="load_more">加载更多</string>
+    <string name="multiple">多选</string>
+    <string name="edit">编辑</string>
+    <string name="item">条目</string>
+    <string name="slide1">条目侧滑菜单1</string>
+    <string name="slide2">条目侧滑菜单2</string>
+    <string name="slide3">条目侧滑菜单3</string>
+    <string name="slide4">条目侧滑菜单4</string>
+    <string name="delete">删除</string>
+</resources>
